@@ -1,4 +1,4 @@
-package maverick_p1;
+package src;
 
 public class Encrypter {
 	public static void Encrypt(int num) {

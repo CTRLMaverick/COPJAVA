@@ -1,9 +1,9 @@
-package maverick_p1;
+package src;
 
 import java.util.*;
 import java.util.stream.Collectors;
 
-import maverick_p1.Encrypter;
+import src.Encrypter;
 
 public class Decrypter {
  public static void Decrypt(int number) {  

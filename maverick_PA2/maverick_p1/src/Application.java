@@ -1,9 +1,9 @@
-package maverick_p1;
+package src;
 
 import java.util.*;
 
-import maverick_p1.Decrypter;
-import maverick_p1.Encrypter;
+import src.Decrypter;
+import src.Encrypter;
 
 
 public class Application {
