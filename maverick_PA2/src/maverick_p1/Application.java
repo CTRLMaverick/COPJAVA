@@ -1,9 +1,9 @@
-package maverick_PA2;
+package maverick_p1;
 
 import java.util.*;
 
-import maverick_PA2.Encrypter;
-import maverick_PA2.Decrypter;
+import maverick_p1.Decrypter;
+import maverick_p1.Encrypter;
 
 
 public class Application {
