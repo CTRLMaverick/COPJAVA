@@ -5,7 +5,6 @@ public class SavingsAccount {
 	static private double annualInterestRate;
 	
 	public SavingsAccount() {
-		
 	}
 	
 	public SavingsAccount(double savingsBalance) {
@@ -24,6 +23,5 @@ public class SavingsAccount {
 	
 	public static void modifyInterestRate(double newInterestRate) {
 		annualInterestRate=newInterestRate;
-		
 	}
 }

@@ -18,6 +18,7 @@ public class SavingsAccountTest {
 			System.out.println("Month "+(i+1)+ ": "+String.format("%.2f", saver2.getSavingsBalance()));
 		}
 		
+		
 		SavingsAccount.modifyInterestRate (0.05);
 		System.out.println("\nPrinting Balance for Saver 1\n");
 		for(int i=0;i<12;i++) {
