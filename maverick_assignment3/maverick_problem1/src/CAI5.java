@@ -62,7 +62,7 @@ public class CAI5 {
 	public void isAnswerCorrect(double z) {
 		SecureRandom ran = new SecureRandom();
 	    int ran_int1 = ran.nextInt(3)+1;
-		 if (useranswer==z) {
+		 if (Math.abs(useranswer-z)<.01) {
 			numcorrect++;
 			displayCorrectResponse(ran_int1);
 		  }
@@ -114,7 +114,7 @@ public class CAI5 {
 		
 	public void readResponse() {
 		System.out.printf("Enter your answer:  ");
-		useranswer = inpt.nextInt();
+		useranswer = inpt.nextDouble();
 	}
 	
 	public void readDifficulty() {
