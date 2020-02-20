@@ -3,8 +3,8 @@ package src;
 public class SavingsAccountTest {
 	public static void main(String[] args) {
 		SavingsAccount saver1, saver2;
-		saver1 = new SavingsAccount (2000.0);
-		saver2 = new SavingsAccount (3000.0);
+		saver1 = new SavingsAccount (2000.00);
+		saver2 = new SavingsAccount (3000.00);
 		
 		SavingsAccount.modifyInterestRate (0.04);
 		System.out.println("Printing Balance for Saver 1\n");
