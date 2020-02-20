@@ -176,7 +176,6 @@ public class CAI5 {
 		    readDifficulty();
 		    readProblemType();
 		for (int i=0;i<10;i++) {
-			qcounter++;
 			generateQuestionArgument(difficultyanswer);
 			askQuestion(rand_int1,rand_int2, mathchoiceanswer);
 			readResponse();
