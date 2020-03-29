@@ -1,6 +1,6 @@
 package src;
 
-public class Application {
+public class AppIication {
 	
 	private static final String ifile = "problem2.txt";
 	private static final String ofile = "unique_word_counts.txt";
